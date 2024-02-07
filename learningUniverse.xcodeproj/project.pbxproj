@@ -14,6 +14,18 @@
 		BA5AB4092B7352BB00509694 /* learningUniverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AB4082B7352BB00509694 /* learningUniverseTests.swift */; };
 		BA5AB4132B7352BB00509694 /* learningUniverseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AB4122B7352BB00509694 /* learningUniverseUITests.swift */; };
 		BA5AB4152B7352BB00509694 /* learningUniverseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AB4142B7352BB00509694 /* learningUniverseUITestsLaunchTests.swift */; };
+		BA5AB42C2B73532000509694 /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BA5AB4222B73532000509694 /* Venus.usdz */; };
+		BA5AB42D2B73532000509694 /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BA5AB4232B73532000509694 /* Jupiter.usdz */; };
+		BA5AB42E2B73532000509694 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BA5AB4242B73532000509694 /* Earth.usdz */; };
+		BA5AB42F2B73532000509694 /* Mercury.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BA5AB4252B73532000509694 /* Mercury.usdz */; };
+		BA5AB4302B73532000509694 /* Moon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BA5AB4262B73532000509694 /* Moon.usdz */; };
+		BA5AB4312B73532000509694 /* sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BA5AB4272B73532000509694 /* sun.usdz */; };
+		BA5AB4322B73532000509694 /* Uranus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BA5AB4282B73532000509694 /* Uranus.usdz */; };
+		BA5AB4332B73532000509694 /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BA5AB4292B73532000509694 /* Neptune.usdz */; };
+		BA5AB4342B73532000509694 /* Saturn.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BA5AB42A2B73532000509694 /* Saturn.usdz */; };
+		BA5AB4352B73532000509694 /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BA5AB42B2B73532000509694 /* Mars.usdz */; };
+		BA5AB4372B73539900509694 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA5AB4362B73539900509694 /* GoogleService-Info.plist */; };
+		BA5AB43A2B73552800509694 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BA5AB4392B73552800509694 /* FirebaseAnalytics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,17 @@
 		BA5AB40E2B7352BB00509694 /* learningUniverseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learningUniverseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5AB4122B7352BB00509694 /* learningUniverseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningUniverseUITests.swift; sourceTree = "<group>"; };
 		BA5AB4142B7352BB00509694 /* learningUniverseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningUniverseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA5AB4222B73532000509694 /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		BA5AB4232B73532000509694 /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		BA5AB4242B73532000509694 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		BA5AB4252B73532000509694 /* Mercury.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mercury.usdz; sourceTree = "<group>"; };
+		BA5AB4262B73532000509694 /* Moon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Moon.usdz; sourceTree = "<group>"; };
+		BA5AB4272B73532000509694 /* sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sun.usdz; sourceTree = "<group>"; };
+		BA5AB4282B73532000509694 /* Uranus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Uranus.usdz; sourceTree = "<group>"; };
+		BA5AB4292B73532000509694 /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Neptune.usdz; sourceTree = "<group>"; };
+		BA5AB42A2B73532000509694 /* Saturn.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Saturn.usdz; sourceTree = "<group>"; };
+		BA5AB42B2B73532000509694 /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
+		BA5AB4362B73539900509694 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5AB43A2B73552800509694 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +98,8 @@
 		BA5AB3EB2B7352B800509694 = {
 			isa = PBXGroup;
 			children = (
+				BA5AB4362B73539900509694 /* GoogleService-Info.plist */,
+				BA5AB4212B73532000509694 /* solarModel */,
 				BA5AB3F62B7352B800509694 /* learningUniverse */,
 				BA5AB4072B7352BB00509694 /* learningUniverseTests */,
 				BA5AB4112B7352BB00509694 /* learningUniverseUITests */,
@@ -127,6 +153,23 @@
 			path = learningUniverseUITests;
 			sourceTree = "<group>";
 		};
+		BA5AB4212B73532000509694 /* solarModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA5AB4222B73532000509694 /* Venus.usdz */,
+				BA5AB4232B73532000509694 /* Jupiter.usdz */,
+				BA5AB4242B73532000509694 /* Earth.usdz */,
+				BA5AB4252B73532000509694 /* Mercury.usdz */,
+				BA5AB4262B73532000509694 /* Moon.usdz */,
+				BA5AB4272B73532000509694 /* sun.usdz */,
+				BA5AB4282B73532000509694 /* Uranus.usdz */,
+				BA5AB4292B73532000509694 /* Neptune.usdz */,
+				BA5AB42A2B73532000509694 /* Saturn.usdz */,
+				BA5AB42B2B73532000509694 /* Mars.usdz */,
+			);
+			path = solarModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +186,9 @@
 			dependencies = (
 			);
 			name = learningUniverse;
+			packageProductDependencies = (
+				BA5AB4392B73552800509694 /* FirebaseAnalytics */,
+			);
 			productName = learningUniverse;
 			productReference = BA5AB3F42B7352B800509694 /* learningUniverse.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +261,9 @@
 				Base,
 			);
 			mainGroup = BA5AB3EB2B7352B800509694;
+			packageReferences = (
+				BA5AB4382B73541300509694 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = BA5AB3F52B7352B800509694 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +280,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5AB4372B73539900509694 /* GoogleService-Info.plist in Resources */,
+				BA5AB4342B73532000509694 /* Saturn.usdz in Resources */,
+				BA5AB4302B73532000509694 /* Moon.usdz in Resources */,
 				BA5AB3FF2B7352BA00509694 /* Preview Assets.xcassets in Resources */,
+				BA5AB4312B73532000509694 /* sun.usdz in Resources */,
+				BA5AB4352B73532000509694 /* Mars.usdz in Resources */,
+				BA5AB42E2B73532000509694 /* Earth.usdz in Resources */,
+				BA5AB4322B73532000509694 /* Uranus.usdz in Resources */,
+				BA5AB42C2B73532000509694 /* Venus.usdz in Resources */,
 				BA5AB3FC2B7352BA00509694 /* Assets.xcassets in Resources */,
+				BA5AB4332B73532000509694 /* Neptune.usdz in Resources */,
+				BA5AB42D2B73532000509694 /* Jupiter.usdz in Resources */,
+				BA5AB42F2B73532000509694 /* Mercury.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +485,7 @@
 				DEVELOPMENT_TEAM = VTJL63GVW6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,6 +517,7 @@
 				DEVELOPMENT_TEAM = VTJL63GVW6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -592,6 +654,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA5AB4382B73541300509694 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA5AB4392B73552800509694 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA5AB4382B73541300509694 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA5AB3EC2B7352B800509694 /* Project object */;
 }

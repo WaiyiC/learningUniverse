@@ -7,6 +7,7 @@
 
 import UIKit
 import SwiftUI
+import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,7 +25,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = UIHostingController(rootView: contentView)
         self.window = window
         window.makeKeyAndVisible()
+        FirebaseApp.configure()
         return true
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -44,6 +47,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
 
+    struct learningUniverse: App {
+      // register app delegate for Firebase setup
+      @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+
+
+      var body: some Scene {
+        WindowGroup {
+          NavigationView {
+            ContentView()
+          }
+        }
+      }
+    }
 
 }
 
